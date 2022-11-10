@@ -1,0 +1,32 @@
+<div class="container">
+  <div>
+    <form [formGroup]="mainForm" (ngSubmit)="(login)">
+      <div>
+        <mat-form-field class="userName">
+          <input
+            matInput
+            placeholder="Enter your username"
+            type="text"
+            name="userName"
+            id="userName"
+            formControlName="userName"
+          />
+        </mat-form-field>
+      </div>
+      <div>
+        <mat-form-field class="userPassword">
+          <input
+            matInput
+            placeholder="Enter your userPassword"
+            type="text"
+            formControlName="userPassword"
+            name="userPassword"
+            id="userPassword"
+          />
+        </mat-form-field>
+      </div>
+
+      <input class="input-grad" type="submit" (click)="login()" />
+    </form>
+  </div>
+</div>

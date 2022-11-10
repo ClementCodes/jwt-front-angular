@@ -1,0 +1,45 @@
+         
+         .input-grad {
+            background-image: linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%);
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+            width: 95%;
+          }
+
+          .input-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+         
+
+          .container{
+
+margin-top: 10%;
+            border: #4e4376 2px solid;
+
+          }
+
+          .mat-form-field{
+
+            max-width: 95%;
+          }
+
+
+          .userPassword{
+
+            width: 95%;
+          }
+          .userName{
+
+            width: 95%;
+          }
+    

@@ -1,0 +1,26 @@
+<mat-toolbar class="toolbar">
+  <div class="list-header">
+    <a [routerLink]="['/Home']" class="list-home">Home</a>
+    <a [routerLink]="['/admin']" class="other-list">Admin Dashboard 1</a>
+    <a [routerLink]="['/user']" class="other-list , user">User Dashbord 2</a>
+  </div>
+  <div>
+    <button
+      class="button-right"
+      mat-raised-button
+      color="primary"
+      [routerLink]="['/login']"
+    >
+      <a href=""></a>
+      Login
+    </button>
+    <button
+      class="button-right"
+      mat-raised-button
+      color="warn"
+      [routerLink]="['/forbidden']"
+    >
+      Logout
+    </button>
+  </div>
+</mat-toolbar>

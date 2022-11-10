@@ -1,0 +1,45 @@
+
+.toolbar{
+    height: auto;
+}
+.list-header{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+  .other-list{
+    margin-left: 8%;
+    list-style: none;
+    color: aliceblue;
+  }
+
+  .toolbar{
+    background-color: rgb(82, 156, 132);
+    color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: flex-end;
+    max-width: 100%;
+
+
+  }
+
+     .button-right{
+      
+        margin-right: 5%;
+    }
+
+    .user{
+        color: black;
+    }
